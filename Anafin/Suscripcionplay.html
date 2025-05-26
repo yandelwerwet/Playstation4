@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>- PlayStation</title>
+ <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #003087;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0055ff;
+    border-radius: 5px;
+}
+
+
+    .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #0070f3;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 16px;
+}
+
+.formulario input[type="text"]::placeholder,
+.formulario input[type="email"]::placeholder,
+.formulario textarea::placeholder {
+    color: #bbb;
+}
+
+.formulario button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #005bb5;
+}
+h2{
+    text-align: center;
+}
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #999;
+}
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.2);
+}
+ </style>
+ 
+</head>
+<body>
+    <header>
+        <h1>PlayStation</h1>
+        <nav>
+            <ul>
+                  <li><a href="Playstation.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                <li><a href="Productosplay.html">Productos</a></li>
+                <li><a href="ofertas_play.html">Ofertas</a></li>
+                <li><a href="Suscripcionplay.html">Suscripción o Preguntas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenido">
+            <h2>Suscripción o Preguntas Frecuentes</h2>
+            <form action="#" method="post" class="formulario">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="tipo">¿Qué deseas hacer?</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value="suscripcion">Suscribirme a novedades</option>
+                    <option value="pregunta">Enviar una pregunta</option>
+                </select>
+
+                <label for="mensaje">Mensaje o pregunta:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PlayStation. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/Latam.PlayStation/?brand_redir=14104316802"><img src="c:\Users\yandel\Downloads\facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/?lang=es"><img src="c:\Users\yandel\Downloads\gorjeo.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="c:\Users\yandel\Downloads\instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

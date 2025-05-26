@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - PlayStation</title>
+   <style>
+    
+/* General */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #003087;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0055ff;
+    border-radius: 5px;
+}
+
+
+
+/* Contenido principal */
+main {
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+/* Productos */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.producto {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #0070f3;
+}
+
+.producto h3 {
+    color: #ffcc00;
+    margin: 15px 0 10px;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #999;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.2);
+}
+.info-extra {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <h1>PlayStation</h1>
+        <nav>
+            <ul>
+                 <li><a href="Playstation.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                <li><a href="Productosplay.html">Productos</a></li>
+                <li><a href="ofertas_play.html">Ofertas</a></li>
+                <li><a href="Suscripcionplay.html">Suscripción o Preguntas</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section class="contenido">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="producto">
+                    <img src="c:\Users\yandel\Downloads\d705971d24c190bd6d78c059de39f9aa.jpg" alt="PlayStation 5">
+                    <h3>PlayStation 5</h3>
+                    <p>La consola más avanzada con gráficos de última generación y velocidad ultrarrápida.</p>
+                </div>
+                <div class="producto">
+                    <img src="c:\Users\yandel\Downloads\fbd10f3e75c918625dd9a2f070bfc1f4.jpg
+                    " alt="Control DualSense">
+                    <h3>Control DualSense</h3>
+                    <p>Experimenta la nueva generación de controladores con retroalimentación háptica.</p>
+                </div>
+                <div class="producto">
+                    <img src="c:\Users\yandel\Downloads\f0f5bbd2faff20e357080f13d24014ed.jpg" alt="PlayStation VR2">
+                    <h3>PlayStation VR2</h3>
+                    <p>Realidad virtual inmersiva para vivir tus juegos como nunca antes.</p>
+                </div>
+                <div class="producto">
+                    <img src="c:\Users\yandel\Downloads\3d9b5361428634d1122ebeba5e5e9bac.jpg" alt="Spider-Man 2">
+                    <h3>Spider-Man 2</h3>
+                    <p>Uno de los juegos más esperados de la generación. Solo en PlayStation.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PlayStation. Todos los derechos reservados.</p>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/Latam.PlayStation/?brand_redir=14104316802"><img src="c:\Users\yandel\Downloads\facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/?lang=es"><img src="c:\Users\yandel\Downloads\gorjeo.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="c:\Users\yandel\Downloads\instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
